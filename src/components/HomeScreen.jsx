@@ -1,15 +1,14 @@
 import React, { useContext } from 'react';
 import { Surface, Text } from 'react-native-paper';
-import styles from '../config/style';
+import styles from '../config/styles';
 import TrocaTema from './TrocaTema';
-import { TemaContext } from '../context/TemaContext';
+import { TemaContext } from '../contexts/TemaContext';
 
 export default function HomeScreen() {
-  const { tema } = useContext(TemaContext);
-
-  return (
+const { tema } = useContext(TemaContext);
+return (
     <Surface style={styles.container}>
-      <Text>Clique abaixo para trocar o tema</Text>
+      <Text>cavalos homosexuais</Text>
       <TrocaTema />
     </Surface>
   );
